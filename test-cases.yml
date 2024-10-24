@@ -249,11 +249,11 @@
   test-data: |
     -
   steps:
-    - Пользователь 1:
+    - Пользователь 1
     - Нажать кнопку "Create a game"
     - Выбрать во вкладке "Game Type" "With other user"
     - Нажать кнопку "Create battle"
-    - Пользователь 2:
+    - Пользователь 2
     - В списке "Lobby" найти нашу игру
     - Нажать на кнопку "Fight"
   expected-result: |
